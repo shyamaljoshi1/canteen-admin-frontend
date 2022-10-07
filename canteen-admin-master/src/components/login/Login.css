@@ -1,0 +1,125 @@
+:root {
+  --background: #f1f1f3;
+}
+
+section {
+  font-size: 62.5%;
+}
+
+.full-screen-container-login {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ec1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.ec2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ec3 {
+  position: absolute;
+  right: 13rem;
+}
+
+.sign-in-container {
+  background-color: #d6d6dc;
+  max-width: 625px;
+  width: 25%;
+  padding: 2.5rem 1.875rem;
+  border-radius: 1.25rem;
+  z-index: 100;
+}
+
+.app-name {
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  margin-bottom: 8.625rem;
+}
+
+.login-title {
+  color: black;
+  font-size: 1.125rem;
+  margin-bottom: 1.875rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.input-container input {
+  font-size: 0.875rem;
+  color: black;
+  border-radius: 0.625rem;
+  height: 3.125rem;
+  padding: 0;
+  padding-left: 1rem;
+  background: white;
+  transition: all 0.15s;
+  box-shadow: 0 0 0 0;
+}
+
+.input-container input::-moz-placeholder {
+  color: #838496;
+  border: 0;
+  outline: 0;
+}
+
+.input-container input:-ms-input-placeholder {
+  color: #838496;
+  border: 0;
+  outline: 0;
+}
+
+.input-container input::placeholder {
+  color: #838496;
+  border: 0;
+  outline: 0;
+}
+
+.btn-sub {
+  margin: 0;
+  font-size: 1rem;
+  padding: 0;
+  height: 3.125rem;
+  width: 100%;
+  color: white;
+  background-color: #3C3D47;
+  border: none;
+  border-radius: 0.625rem;
+}
+
+.btn-sub:hover,
+.btn-sub:focus {
+  background-color: #7d7f90;
+  cursor: pointer;
+}
+
+.btn-sub:active {
+  background-color: #26262e;
+}/*# sourceMappingURL=login.css.map */

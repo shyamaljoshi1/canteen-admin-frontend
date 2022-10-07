@@ -1,0 +1,65 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 8rem;
+  font-size: 2rem;
+}
+.container__inner__1,
+.container history__container__inner__1 {
+  background-color: #ddd;
+  border-radius: 1rem;
+  margin: 4rem;
+  padding: 4rem 10rem 4rem 6rem;
+}
+.container__inner__1 h6,
+.container history__container__inner__1 h6 {
+  color: #838496;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.container__inner__1 h4,
+.container history__container__inner__1 h4 {
+  color: #3C3D47;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.container__inner__1 h2,
+.container history__container__inner__1 h2 {
+  color: #32CD32;
+  font-weight: 600;
+}
+.container__inner__1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.his__1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.his__2__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.his__2__inner__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history__inner__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+#date {
+  background-color: #ddd;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  margin: 1rem 0 0 1.3rem;
+  display: inline-block;
+}/*# sourceMappingURL=home.css.map */

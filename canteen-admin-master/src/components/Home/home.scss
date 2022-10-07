@@ -1,0 +1,64 @@
+@import '../../variables.scss';
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8rem;
+    font-size: 2rem;
+    &__inner__1,
+    history__container__inner__1{
+        background-color: $color-primary-light;
+        border-radius: 1rem;
+        margin: 4rem;
+        padding: 4rem 10rem 4rem 6rem;
+        h6{
+            color: #838496;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+        h4{
+            color: $color-primary-dark;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        h2{
+            color: #32CD32;
+            font-weight: 600;
+        }
+    }
+    &__inner__1{
+        display: flex;
+        justify-content:space-between;
+    }
+}
+.his__1{
+    display: flex;
+    justify-content:space-between;
+}
+.his__2__inner{
+    display: flex;
+    justify-content:space-between;
+    &__inner{
+        display: flex;
+        justify-content:space-between;
+    }
+}
+.history__inner{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.inner{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+#date{
+    background-color: #ddd;
+    padding: .8rem;
+    border-radius: 1rem;
+    margin:1rem 0 0 1.3rem;
+    display: inline-block; 
+  }
